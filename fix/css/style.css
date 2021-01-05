@@ -1,0 +1,79 @@
+body {
+  background-image: url("./../img/bg.png");
+}
+
+.info {
+  margin:0 0 0 auto;
+  display:flex;
+  text-align:right;
+}
+
+.flist {
+  float: left;
+}
+
+.imgwidth {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.relative2 {
+    position: relative;
+    width: 75%;
+}
+
+.absolute2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+    width: 100%;
+}
+
+.absolute {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 55%;
+}
+
+.planul {
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+
+.planul li {
+    width: calc(100%/5);/*←画像を横に4つ並べる場合*/
+    padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing:border-box;
+}
+.planul li img {
+    max-width:100%; /*画像のはみだしを防ぐ*/
+    height: auto; /*画像の縦横比を維持 */
+    border:solid 1px #ccc; /*←画像を1pxのグレーの枠線で囲む指定の場合*/
+}
+
+.hibiul {
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+
+.hibiul li {
+    width: calc(100%/2);/*←画像を横に4つ並べる場合*/
+    padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing:border-box;
+}
+.hibiul li img {
+    max-width:100%; /*画像のはみだしを防ぐ*/
+    height: auto; /*画像の縦横比を維持 */
+    border:solid 1px #ccc; /*←画像を1pxのグレーの枠線で囲む指定の場合*/
+}
