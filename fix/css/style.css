@@ -63,12 +63,28 @@ body {
 
 .hibi {
   background-image: url("./../img/hibi_bg.png");
+  text-align: center;
 }
+
+.hibititle {
+    margin: 20px auto;
+    width: 40%;
+    height: auto;
+    border-style:none;
+
+}
+
 
 .hibiul {
     display: flex;
     flex-wrap:wrap;
+    font-size: 30px;
     list-style: none;
+}
+
+.hibiimg {
+    list-style: none;
+    border: none;
 }
 
 .hibiul li {
@@ -80,6 +96,59 @@ body {
     max-width:100%; /*画像のはみだしを防ぐ*/
     height: auto; /*画像の縦横比を維持 */
     border:solid 1px #ccc; /*←画像を1pxのグレーの枠線で囲む指定の場合*/
+}
+.hibi_text1 {
+  font-size: 75%;
+  font-family: "Source Han Sans JP";
+  color: rgb(255, 255, 255);
+  /*line-height: 1.2;*/
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /*padding: 0, 100, 0;*/
+/*  position: absolute;
+  left: 1102.1px;
+  top: 4886.55px;
+  z-index: 23;*/
+}
+.hibi_text3 {
+  font-size: 25%;
+  font-family: "YuGothic";
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  /*line-height: 1.5;*/
+  text-align: center;
+/*  left: 1050.449px;
+  top: 5008.016px;
+  width: 548px;
+  height: 62px;
+  z-index: 22;*/
+}
+
+.hibi_text2 {
+  font-size: 50%;
+  font-family: "Source Han Sans JP";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0.2px, 0;
+  padding: 0;
+  /*line-height: 4.444*/;
+  text-align: center;
+/*  position: absolute;
+  left: 1160.611px;
+  top: 4988.099px;
+  z-index: 21;*/
+}
+.flow {
+  /*background-image: url("./../img/voice_bg.png")*/;
+  text-align: center;
+}
+
+.flowtitle {
+    margin: 20px auto;
+    width: 15%;
+    height: auto;
 }
 
 .flowul {
@@ -102,6 +171,13 @@ body {
 
 .voice {
   background-image: url("./../img/voice_bg.png");
+  text-align: center;
+}
+
+.voicetitle {
+    margin: 20px auto;
+    width: 10%;
+    height: auto;
 }
 
 .voiceul {
@@ -120,4 +196,17 @@ body {
     max-width:100%; /*画像のはみだしを防ぐ*/
     height: auto; /*画像の縦横比を維持 */
     border:solid 1px #ccc; /*←画像を1pxのグレーの枠線で囲む指定の場合*/
+}
+
+footer {
+    text-align: center;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    font-size: 30%;
+    margin: 0;
+    padding: 0;
 }
