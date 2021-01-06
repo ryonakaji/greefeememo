@@ -1,7 +1,7 @@
 body {
     background-image: url("./../img/bg.png");
     margin: 0;
-    padding: 0;
+   padding: 0;
 }
 
 .mv {
@@ -14,19 +14,24 @@ body {
     background-repeat: no-repeat;*/
 }
 
-.info {
+/*.info {
     position: absolute;
     right: 0px;
     top: 0px;
     margin:0;
     padding: 0;
     display:flex;
-}
+}*/
 
 .telimg {
     height: 30px;
     width: auto;
     margin-left: auto;
+}
+
+.shikin {
+    margin:0;
+    padding: 0;
 }
 
 .contactimg {
@@ -44,7 +49,8 @@ body {
 .imgwidth {
     width: 100%;
     height: 100%;
-    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .relative2 {
@@ -88,10 +94,14 @@ body {
     /*position: absolute;
     left: 50px;
     top: 0px;*/
+    position: absolute;
     width: 55%;
     height: auto;
     margin: 0;
     padding: 0;
+    display:flex;
+    right: 0px;
+    top: 0px;
 }
 
 .textabsolute {
@@ -146,7 +156,8 @@ body {
 }
 
 .hibi {
-    background-image: url("./../img/hibi_bg.png");
+    background-image: url("./../img/bbb.png");
+    background-size: cover;
     text-align: center;
 }
 
@@ -157,12 +168,15 @@ body {
     border-style:none;
 }
 
-
 .hibiul {
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
-    flex-wrap:wrap;
+    /*flex-wrap:wrap;*/
     font-size: 30px;
     list-style: none;
+    width: 75%;
+    text-align: center;
 }
 
 .hibiimg {
@@ -182,9 +196,10 @@ body {
 }
 
 .hibi_text1 {
-    font-size: 75%;
+    font-size: 50%;
     font-family: "Source Han Sans JP";
     color: rgb(255, 255, 255);
+    font-weight: bold;
     /*line-height: 1.2;*/
     text-align: center;
     margin: 0;
@@ -197,7 +212,7 @@ body {
 }
 
 .hibi_text3 {
-    font-size: 25%;
+    font-size: 12%;
     font-family: "YuGothic";
     color: rgb(255, 255, 255);
     margin: 0;
@@ -212,11 +227,11 @@ body {
 }
 
 .hibi_text2 {
-    font-size: 50%;
+    font-size: 20%;
     font-family: "Source Han Sans JP";
     color: rgb(255, 255, 255);
     font-weight: bold;
-    margin: 0.2px, 0;
+    margin: 0.1px, 0;
     padding: 0;
     /*line-height: 4.444*/;
     text-align: center;
@@ -232,7 +247,7 @@ body {
 }
 
 .flowtitle {
-    margin: 20px auto;
+    margin: 20px 0;
     width: 15%;
     height: auto;
 }
@@ -241,6 +256,7 @@ body {
     display: flex;
     flex-wrap:wrap;
     list-style: none;
+    width: 90%;
 }
 
 .flowul li {
@@ -270,6 +286,7 @@ body {
     display: flex;
     flex-wrap:wrap;
     list-style: none;
+    width: 90%;
 }
 
 .voiceul li {
@@ -286,13 +303,15 @@ body {
 
 footer {
     text-align: center;
-    font-size: 100%;
+    font-size: 50%;
     margin: 0;
     padding: 0;
 }
 
 .copyright {
-    font-size: 30%;
+    font-family: "Noto Sans CJK JP";
+    color: rgb(179, 179, 179);
+    font-size: 10%;
     margin: 0;
     padding: 0;
 }
