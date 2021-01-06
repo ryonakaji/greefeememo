@@ -2,10 +2,35 @@ body {
   background-image: url("./../img/bg.png");
 }
 
+.mv {
+    margin: 0;
+    padding: 0;
+/*    background-image: url("./../img/pixta_58820100_M.png");
+    height: auto;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+}
+
 .info {
-  margin:0 0 0 auto;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  margin:0;
+  padding: 0;
   display:flex;
-  text-align:right;
+}
+.telimg {
+    height: 30px;
+    width: auto;
+    margin-left: auto;
+}
+.contactimg {
+margin-left: auto;
+  margin:0;
+  padding: 0;
+    height: 30px;
+    width: auto;
 }
 
 .flist {
@@ -34,20 +59,50 @@ body {
 .relative {
     position: relative;
     width: 100%;
+    height: auto;
 }
+
+/*.mv_img {
+    width: 55%;
+    height: auto;
+}*/
 
 .absolute {
     position: absolute;
     left: 0px;
     top: 0px;
-    height: 100%;
     width: 55%;
+    height: auto;
+    z-index: 100;
+}
+
+.infoabsolute {
+    /*position: absolute;
+    left: 50px;
+    top: 0px;*/
+    width: 55%;
+    height: auto;
+}
+
+.logoabsolute {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 15%;
+    height: auto;
+    z-index: 200;
+}
+
+.plan {
+    background-image: url("./../img/plan_bg.png");
 }
 
 .planul {
     display: flex;
     flex-wrap:wrap;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .planul li {
